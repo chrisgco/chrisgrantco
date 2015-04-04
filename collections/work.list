@@ -1,0 +1,147 @@
+<!-- wrapper -->
+<div class="wrapper fixed-page">
+
+  <!-- header -->
+  <header class="header">
+
+    <!-- container -->
+    <div class="container clearfix">
+
+      <div class="one-third column">
+
+        <!-- logo -->
+        <div class="logo"></div>
+        <div class="menu"></div>
+        <!-- logo -->
+
+      </div>
+
+      <div class="navigation two-thirds column">
+
+        <!-- navigation -->
+        <squarespace:navigation navigationId="navigation" template="navigation">
+        <!-- navigation -->
+
+      </div>
+
+    </div>
+
+  </header>
+  <!-- header -->
+
+  <!-- section -->
+  <section class="works">
+
+    <div class="cover">
+
+      <div class="overlay">
+
+        <!-- container -->
+        <div class="container">
+
+          <div class="sixteen columns">
+
+            <h3 class="title">Work</h3>
+
+          </div>
+
+        </div>
+        <!-- container -->
+
+      </div>
+
+    </div>
+
+    <div class="offset">
+
+      <!-- container -->
+      <div class="filter container">
+
+        <div class="sixteen columns">
+
+          <ul>
+
+            <li class="active">All</li>
+            <li>Web</li>
+            <li>Mobile</li>
+            <li>Branding</li>
+            <li>ECommerce</li>
+
+          </ul>
+
+        </div>
+
+      </div>
+      <!-- container -->
+
+      <!-- container -->
+      <div class="row container">
+        {.repeated section items}
+        {.equal? @index 1}
+        {@|apply work.block}
+        {.end}
+
+        {.equal? @index 2}
+        {@|apply work.block}
+        {.end}
+
+        {.equal? @index 3}
+        {@|apply work.block}
+        {.end}
+
+        {.end}
+
+      </div>
+      <!-- container -->
+
+      <!-- container -->
+      <div class="row container">
+        {.repeated section items}
+        {.equal? @index 4}
+        {@|apply work.block}
+        {.end}
+
+        {.equal? @index 5}
+        {@|apply work.block}
+        {.end}
+
+        {.equal? @index 6}
+        {@|apply work.block}
+        {.end}
+
+        {.end}
+      </div>
+      <!-- container -->
+
+      <!-- container -->
+      <div class="row container">
+        {.repeated section items}
+        {.equal? @index 7}
+        {@|apply work.block}
+        {.end}
+
+        {.equal? @index 8}
+        {@|apply work.block}
+        {.end}
+
+        {.equal? @index 9}
+        {@|apply work.block}
+        {.end}
+
+        {.end}
+      </div>
+      <!-- container -->
+
+    </div>
+
+  </section>
+  <!-- section -->
+
+
+  <!-- footer -->
+  {@|apply footer.block}
+  <!-- footer -->
+
+
+</div>
+<!-- wrapper -->

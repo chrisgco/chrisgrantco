@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+	<!-- Metas
+  ================================================== -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- Squarespace
+  ================================================== -->
+  {squarespace-headers}
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="/assets/css/base.css">
+	<link rel="stylesheet" href="/assets/css/skeleton.css">
+	<link rel="stylesheet" href="/assets/css/flexslider.css">
+	<link rel="stylesheet" href="/assets/css/magnific-popup.css">
+	<link rel="stylesheet" href="/assets/css/talamone.css">
+	<link rel="stylesheet" href="/assets/css/layout.css">
+	<link rel="stylesheet" href="/assets/css/animate.css">
+	<link rel="stylesheet" href="/assets/css/font-awesome.css">
+
+	<!-- Fonts
+  ================================================== -->
+	<link href='/assets/fonts/aileron/aileron.css' rel='stylesheet' type='text/css'>
+	<link href='/assets/fonts/montserrat/montserrat.css' rel='stylesheet' type='text/css'>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+</head>
+
+<body id="{squarespace.page-id}" class="{squarespace.page-classes}">

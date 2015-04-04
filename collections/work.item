@@ -1,0 +1,96 @@
+<!-- wrapper -->
+<div class="wrapper fixed-page">
+
+  <!-- header -->
+  <header class="header nocover">
+
+    <!-- container -->
+    <div class="container clearfix">
+
+      <div class="one-third column">
+
+        <!-- logo -->
+        <div class="logo"></div>
+        <div class="menu"></div>
+        <!-- logo -->
+
+      </div>
+
+      <div class="navigation two-thirds column">
+
+        <!-- navigation -->
+        <squarespace:navigation navigationId="navigation" template="navigation">
+        <!-- navigation -->
+
+      </div>
+
+    </div>
+
+  </header>
+  <!-- header -->
+
+  <!-- section -->
+  <section class="project">
+
+    <div class="offset">
+
+      {.section item}
+      <div class="info">
+
+        <!-- container -->
+        <div class="container">
+
+          <div class="sixteen columns">
+
+            <div class="title">{title}</div>
+
+            <div class="subtitle">{excerpt}</div>
+
+            {body}
+
+            {postItemInjectCode}
+
+          </div>
+
+        </div>
+        <!-- container -->
+
+      </div>
+      {.end}
+
+
+      <div class="links">
+
+        <!-- container -->
+        <div class="container">
+          {.section collection}
+          <div class="back four columns">
+
+            <a href="{fullUrl}" class="all more">All Projects</a>
+
+          </div>
+          {.end}
+
+          {.section item}
+          <div class="social eight columns">
+
+            <div href="https://www.facebook.com/sharer/sharer.php?u=www.chrisgrant.co/{fullUrl}" class="facebook">Share</div>
+
+            <div href="https://twitter.com/home?status=@chrisgco:www.chrisgrant.co/{fullUrl}" class="twitter">Tweet</div>
+
+          </div>
+          {.end}
+
+        </div>
+        <!-- container -->
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- section -->
+
+
+</div>
+<!-- wrapper -->

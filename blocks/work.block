@@ -1,0 +1,16 @@
+<div class="project one-third column" data-url="{.passthrough?}{sourceUrl}{.or}{fullUrl}{.end}" data-type="{.repeated section categories}{@}{.end}">
+
+  {.main-image?}
+  <div class="thumbnail">
+    <img {@|image-meta} />
+  </div>
+  {.end}
+
+  <div class="info">
+
+    <div class="title">{title}</div>
+    <div class="subtitle">{excerpt}</div>
+
+  </div>
+
+</div>

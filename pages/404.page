@@ -1,0 +1,77 @@
+<!-- wrapper -->
+<div class="wrapper">
+
+  <!-- header -->
+  <header class="header">
+
+    <!-- container -->
+    <div class="container clearfix">
+
+      <div class="one-third column">
+
+        <!-- logo -->
+        <div class="logo"></div>
+        <div class="menu"></div>
+        <!-- logo -->
+
+      </div>
+
+      <div class="two-thirds column">
+
+        <!-- navigation -->
+        <div class="navigation">
+
+          <squarespace:navigation navigationId="navigation" template="navigation">
+
+        </div>
+        <!-- navigation -->
+
+      </div>
+
+    </div>
+
+  </header>
+  <!-- header -->
+  <!-- section -->
+  <section class="home fullscreen">
+
+    <div class="inner">
+
+      <div class="image"></div>
+
+      <div class="overlay fullscreen">
+
+        <!-- container -->
+        <div class="container vertical-center">
+
+          <div class="sixteen columns">
+
+            <div class="title">404</div>
+
+            <div class="subtitle">
+              <span>Page Not Found</span>
+            </div>
+
+          </div>
+
+        </div>
+        <!-- container -->
+        <div class="buttons container">
+
+          <div class="sixteen columns">
+
+            <div class="discover" data-url="/">Back Home</div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- section -->
+
+</div>
+<!-- wrapper -->

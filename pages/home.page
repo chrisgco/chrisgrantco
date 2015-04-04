@@ -1,0 +1,159 @@
+<!-- wrapper -->
+<div class="wrapper">
+
+  <!-- header -->
+  <header class="header">
+
+    <!-- container -->
+    <div class="container clearfix">
+
+      <div class="one-third column">
+
+        <!-- logo -->
+        <div class="logo"></div>
+        <div class="menu"></div>
+        <!-- logo -->
+
+      </div>
+
+      <div class="two-thirds column">
+
+        <!-- navigation -->
+        <div class="navigation">
+
+          <squarespace:navigation navigationId="navigation" template="navigation">
+
+        </div>
+        <!-- navigation -->
+
+      </div>
+
+    </div>
+
+  </header>
+  <!-- header -->
+
+  <!-- section -->
+  <section class="home fullscreen">
+
+    <div class="inner">
+
+      <div class="slider">
+
+        <ul class="slides">
+
+          <li class="slide" data-url="/assets/img/home/slide1.jpg">
+
+            <div class="overlay transparent">
+
+              <!-- container -->
+              <div class="container vertical-center">
+
+                <div class="sixteen columns">
+
+                  <div class="title">Hi, I'm Chris Grant,</div>
+
+                  <div class="subtitle">
+                    <span>Full Stack Web Developer &amp; Designer</span>
+                  </div>
+
+                </div>
+
+              </div>
+              <!-- container -->
+
+
+              <div class="buttons container">
+
+                <div class="sixteen columns">
+
+                  <div class="discover" data-url="/about">Learn More</div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </li>
+
+          <li class="slide" data-url="/assets/img/home/slide2.jpg">
+
+            <div class="overlay">
+
+              <!-- container -->
+              <div class="container vertical-center">
+
+                <div class="sixteen columns">
+
+                  <div class="title">I've Worked On</div>
+
+                  <div class="subtitle">
+                    <span>Web Sites, Servers, Mobile Apps...</span>
+                  </div>
+
+                </div>
+
+              </div>
+              <!-- container -->
+
+
+              <div class="buttons container">
+
+                <div class="sixteen columns">
+
+                  <div class="discover" data-url="/work">Check Out My Works</div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </li>
+
+          <li class="slide" data-url="/assets/img/home/slide3.jpg">
+
+            <div class="overlay">
+
+              <!-- container -->
+              <div class="container vertical-center">
+
+                <div class="sixteen columns">
+
+                  <div class="title">Need A Website or App?</div>
+
+                  <div class="subtitle">
+                    <span>I'm based in NYC, Let's Work Together</span>
+                  </div>
+
+                </div>
+
+              </div>
+              <!-- container -->
+
+
+              <div class="buttons container">
+
+                <div class="sixteen columns">
+
+                  <div class="discover" data-url="/contact">Work With Me</div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- section -->
+
+</div>
