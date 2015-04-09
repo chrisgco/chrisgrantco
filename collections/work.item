@@ -55,6 +55,7 @@
           <div class="social eight columns">
 
             {@|like-button}
+            
             {@|social-button-inline}
 
           </div>

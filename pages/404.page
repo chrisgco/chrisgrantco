@@ -4,67 +4,51 @@
   <!-- header -->
   <header class="header">
 
-    <!-- container -->
-    <div class="container clearfix">
-
-      <div class="one-third column">
-
-        <!-- logo -->
-        <div class="logo"></div>
-        <div class="menu"></div>
-        <!-- logo -->
-
-      </div>
-
-      <div class="two-thirds column">
-
-        <!-- navigation -->
-        <div class="navigation">
-
-          <squarespace:navigation navigationId="navigation" template="navigation">
-
-        </div>
-        <!-- navigation -->
-
-      </div>
-
-    </div>
+    {@|apply header.block}
 
   </header>
   <!-- header -->
   <!-- section -->
-  <section class="home fullscreen">
+  <section class="slider fullscreen">
 
     <div class="inner">
 
-      <div class="image"></div>
+      <div class="slider-wrapper">
 
-      <div class="overlay fullscreen">
+        <ul class="slides">
+          <li class="slide" style="background-image: url(/assets/img/covers/404.jpg);">
 
-        <!-- container -->
-        <div class="container vertical-center">
+            <div class="overlay transparent">
 
-          <div class="sixteen columns">
+              <!-- container -->
+              <div class="container vertical-center">
 
-            <div class="title">404</div>
+                <div class="sixteen columns">
 
-            <div class="subtitle">
-              <span>Page Not Found</span>
+                  <div class="title" data-content-field="title" data-edit-main-image="Background">404</div>
+
+                  <div class="subtitle">
+                    <span>Page Not Found</span>
+                  </div>
+
+                </div>
+
+              </div>
+              <!-- container -->
+
+
+              <div class="buttons container">
+
+                <div class="sixteen columns">
+                  <div class="discover"><a href="/">Back Home</a></div>
+                </div>
+
+              </div>
+
             </div>
 
-          </div>
-
-        </div>
-        <!-- container -->
-        <div class="buttons container">
-
-          <div class="sixteen columns">
-
-            <div class="discover" data-url="/">Back Home</div>
-
-          </div>
-
-        </div>
+          </li>
+        </ul>
 
       </div>
 
