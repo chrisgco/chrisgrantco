@@ -1,4 +1,4 @@
-<div class="post" data-url="{.passthrough?}{sourceUrl}{.or}{fullUrl}{.end}">
+<div class="post {@|item-classes}" data-url="{.passthrough?}{sourceUrl}{.or}{fullUrl}{.end}" data-item-id="{id}">
 
   {.main-image?}
   <div class="thumbnail">

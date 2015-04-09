@@ -1,4 +1,4 @@
-<div class="project one-third column" data-url="{.passthrough?}{sourceUrl}{.or}{fullUrl}{.end}" data-type="{.repeated section categories}{@}{.end}">
+<div class="project one-third column {@|item-classes}" data-url="{.passthrough?}{sourceUrl}{.or}{fullUrl}{.end}" data-type="{.repeated section categories}{@}{.end}" data-item-id={id}>
 
   {.main-image?}
   <div class="thumbnail">

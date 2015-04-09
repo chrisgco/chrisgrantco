@@ -1,59 +1,25 @@
-
 <!-- wrapper -->
 <div class="wrapper">
 
   <!-- header -->
   <header class="header">
 
-    <!-- container -->
-    <div class="container clearfix">
-
-      <div class="one-third column">
-
-        <!-- logo -->
-        <div class="logo"></div>
-        <div class="menu"></div>
-        <!-- logo -->
-
-      </div>
-
-      <div class="navigation two-thirds column">
-
-        <!-- navigation -->
-        <squarespace:navigation navigationId="navigation" template="navigation">
-          <!-- navigation -->
-
-      </div>
-
-    </div>
+    {@|apply header.block}
 
   </header>
   <!-- header -->
 
   <!-- section -->
+
   <section class="blog">
-
-    <div class="cover">
-
-      <div class="overlay">
-
-        <!-- container -->
-        <div class="container">
-
-          <div class="sixteen columns">
-
-            <h3 class="title">Blog</h3>
-
-          </div>
-
-        </div>
-        <!-- container -->
-
-      </div>
-
-    </div>
+    {.section collection}
+    {@|apply cover.block}
+    {.end}
 
     <div class="offset">
+      <!-- Categories -->
+      {@|apply categories.block}
+      <!-- Categories -->
 
       <!-- container -->
       <div class="container">
@@ -74,24 +40,14 @@
       </div>
       <!-- container -->
 
-      {.if pagination}
-      <div class="container">
-        <h5>
-          {.if pagination.prevPage}
-          <a href="{pagination.prevPageUrl}"><i class="fa fa-arrow-left"></i>
-Newer</a> {.end}
-
-          {.if pagination.nextPage}
-          <a href="{pagination.nextPageUrl}">Older<i class="fa fa-arrow-right"></i>
-</a> {.end}
-        </h5>
-      </div>
-      {.end}
-
     </div>
 
   </section>
   <!-- section -->
+
+  <!--pagination-->
+  {@|apply pagination.block}
+  <!--pagination-->
 
   <!-- footer -->
   {@|apply footer.block}

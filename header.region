@@ -9,20 +9,18 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <!-- Squarespace
-  ================================================== -->
-  {squarespace-headers}
-
 	<!-- CSS
   ================================================== -->
-	<link rel="stylesheet" href="/assets/css/base.css">
-	<link rel="stylesheet" href="/assets/css/skeleton.css">
-	<link rel="stylesheet" href="/assets/css/flexslider.css">
-	<link rel="stylesheet" href="/assets/css/magnific-popup.css">
-	<link rel="stylesheet" href="/assets/css/talamone.css">
-	<link rel="stylesheet" href="/assets/css/layout.css">
-	<link rel="stylesheet" href="/assets/css/animate.css">
-	<link rel="stylesheet" href="/assets/css/font-awesome.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.6/animate.min.css" rel='stylesheet' type='text/css'>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/1.2/skeleton.min.css" rel='stylesheet' type='text/css'>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.2.2/flexslider-min.css" rel='stylesheet' type='text/css'>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/0.9.9/magnific-popup.min.css" rel='stylesheet' type='text/css'>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" rel='stylesheet' type='text/css'>
+
+	<!-- Squarespace
+  ================================================== -->
+  {squarespace-headers}
 
 	<!-- Fonts
   ================================================== -->

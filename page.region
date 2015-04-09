@@ -1,0 +1,39 @@
+<!-- wrapper -->
+<div class="wrapper">
+
+  <!-- header -->
+  <header class="header">
+
+    {@|apply header.block}
+
+  </header>
+  <!-- header -->
+
+  <!-- section -->
+  {.section collection}
+  <section data-collection-id="{id}">
+
+    {@|apply cover.block}
+
+    <div class="offset">
+
+      <!-- container -->
+      <div class="container" data-content-field="main-content">
+        {squarespace.main-content}
+      </div>
+      <!-- container -->
+
+    </div>
+
+  </section>
+  {.end}
+  <!-- section -->
+
+
+  <!-- footer -->
+  {@|apply footer.block}
+  <!-- footer -->
+
+
+</div>
+<!-- wrapper -->

@@ -1,0 +1,33 @@
+<!-- header block -->
+<div class="container clearfix">
+
+  {.section website}
+  <div class="one-third column">
+
+    <!-- logo -->
+    <h3 data-content-field="site-title" class="logo" data-annotation-alignment="bottom">
+      <a href="/">
+        {.section logoImageUrl}
+        <img src="{logoImageUrl}?format=400w" alt="{siteTitle} Logo">
+        {.or}
+        {siteTitle}
+        {.end}
+      </a>
+    </h3>
+    {.end}
+    <div class="menu"></div>
+    <!-- logo -->
+
+  </div>
+  {.end}
+
+  <div class="navigation two-thirds column" data-content-field="navigation">
+
+    <!-- navigation -->
+    <squarespace:navigation navigationId="navigation" template="navigation">
+    <!-- navigation -->
+
+  </div>
+
+</div>
+<!-- header block -->

@@ -1,11 +1,10 @@
-
 <!-- navigation -->
 <nav>
 
   <ul>
     {.repeated section items}
       {.section collection}
-      <li data-url="{fullUrl}" data-type="out">{navigationTitle}</li>
+      <li class="{.section active}active{.end}"><a href="{fullUrl}">{navigationTitle}</a></li>
       {.end}
 
       {.section externalLink}

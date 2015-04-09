@@ -4,57 +4,15 @@
   <!-- header -->
   <header class="header">
 
-    <!-- container -->
-    <div class="container clearfix">
-
-      <div class="one-third column">
-
-        <!-- logo -->
-        <div class="logo"></div>
-        <div class="menu"></div>
-        <!-- logo -->
-
-      </div>
-
-      <div class="navigation two-thirds column">
-
-        <!-- navigation -->
-        <squarespace:navigation navigationId="navigation" template="navigation">
-
-          <!-- navigation -->
-
-      </div>
-
-    </div>
+    {@|apply header.block}
 
   </header>
   <!-- header -->
 
+  {.section collection}
   <section class="contact">
 
-    <div class="cover">
-
-      <div class="overlay">
-
-        <div class="navigate left"></div>
-
-        <!-- container -->
-        <div class="container">
-
-          <div class="sixteen columns">
-
-            <h3 class="title">Contact</h3>
-
-          </div>
-
-        </div>
-        <!-- container -->
-
-        <div class="navigate right"></div>
-
-      </div>
-
-    </div>
+    {@|apply cover.block}
 
     <div class="offset">
 
@@ -122,6 +80,7 @@
     </div>
 
   </section>
+  {.end}
   <!-- section -->
 
   <!-- footer -->
