@@ -137,6 +137,21 @@
       </div>
       <!-- container -->
 
+      <!-- container -->
+      <div class="row container">
+        {.repeated section items}
+        {.equal? @index 19}
+        {@|apply work.block}
+        {.end}
+
+        {.equal? @index 20}
+        {@|apply work.block}
+        {.end}
+
+        {.end}
+      </div>
+      <!-- container -->
+
     </div>
 
   </section>
