@@ -22,13 +22,15 @@
 
           <div class="sixteen columns">
 
-            <div class="title" data-content-field="title">{title}</div>
+            <h4 class="title" data-content-field="title">{title}</h4>
 
-            <div class="subtitle" data-content-field="excerpt">{excerpt}</div>
+            <h5 class="subtitle" data-content-field="excerpt">{excerpt}</h5>
 
+            <div class="content">
             {body}
 
             {postItemInjectCode}
+            </div>
 
           </div>
 
@@ -55,7 +57,7 @@
           <div class="social eight columns">
 
             {@|like-button}
-            
+
             {@|social-button-inline}
 
           </div>
