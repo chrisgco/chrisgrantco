@@ -340,27 +340,82 @@ section.works .project {
     right:5%;
   }
 }
-section.project {
-  .offset {
-    padding-bottom:0px;
-    padding-top:130px !important;
-  }
-  .info {
-    text-align:left;
-  }
-  .links {
-    margin-bottom:20px;
-    padding-top:20px;
-    text-align:left;
-  }
-  .back {
-    margin-left:0px;
-  }
-  .social {
-    float:right;
-    margin-right:0px;
-    text-align:right;
-  }
+section.project .offset {
+  padding-bottom: 0px;
+  padding-top: 130px !important;
+}
+
+section.project .info {
+  text-align: left;
+}
+
+section.project .info .title {
+  color: #000000;
+  font-family: "Montserrat";
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+section.project .info .subtitle {
+  font-size: 15px;
+  margin-bottom: 40px;
+  margin-top: 8px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+section.project .info .content {
+  padding: 0px 100px;
+}
+
+section.project .links {
+  margin-bottom: 20px;
+  padding-top: 20px;
+  text-align: left;
+}
+
+section.project .back {
+  margin-left: 0px;
+}
+
+section.project .social {
+  float: right;
+  margin-right: 0px;
+  text-align: right;
+}
+
+section.project .links .all {
+  background-position: left center;
+  background-repeat: no-repeat;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Montserrat";
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  opacity: 0.5;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: all .3s ease 0;
+  -moz-transition: all .3s ease 0;
+  -ms-transition: all .3s ease 0;
+  -o-transition: all .3s ease 0;
+  transition: all .3s ease 0;
+}
+
+section.project .links .all:hover {
+  opacity: 1;
+}
+
+section.project .links .all {
+  background-image: url(/assets/img/misc/project-close.png);
+  background-size: 11px 11px;
+  margin-left: 0px;
+  padding-left: 20px;
 }
 section.blog {
   .offset {
