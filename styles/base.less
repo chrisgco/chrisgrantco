@@ -301,22 +301,81 @@
 	}
 
 
-/* #Loader
-================================================== */
-
+	/* Loader
+	================================================== */
 	.loader {
-		background-color: #111111;
-		background-image: url(/assets/img/misc/loader.gif);
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: 40px 40px;
-		bottom: 0px;
-		left: 0px;
-		position: fixed;
-		right: 0px;
-		top: 0px;
-		z-index: 9999;
+	  display: table;
+	  margin: auto;
+	  vertical-align: middle;
+	  width: 100%;
+	  height: 100%;
+	  position: fixed;
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  background-color: #fff;
+	  z-index: 999;
+	  &-text {
+	    display: table-cell;
+	    vertical-align: middle;
+	    text-align: center;
+	    color: #000;
+	    font-family: "raleway";
+	    font-size: 14px;
+	    font-weight: 200;
+	    height: auto;
+	    letter-spacing: 1.0499999523162842px;
+	    line-height: 24px;
+	    text-rendering: optimizelegibility;
+	    &:after {
+	      display: block;
+	      margin: 20px auto auto;
+	      position: relative;
+	      width: 40px;
+	      height: 40px;
+	      -webkit-animation: rotate 0.6s linear infinite;
+	      -moz-animation: rotate 0.6s linear infinite;
+	      -ms-animation: rotate 0.6s linear infinite;
+	      -o-animation: rotate 0.6s linear infinite;
+	      animation: rotate 0.6s linear infinite;
+	      -webkit-border-radius: 100%;
+	      -moz-border-radius: 100%;
+	      border-radius: 100%;
+	      border-top: 1px solid #333;
+	      border-bottom: 1px solid #d5d5d5;
+	      border-left: 1px solid #333;
+	      border-right: 1px solid #d5d5d5;
+	      content: '';
+	      opacity: 0.7;
+	    }
+	  }
 	}
+	@keyframes rotate {
+	  0% {
+	    -ms-transform: rotatez(-360deg);
+	    -webkit-transform: rotatez(-360deg);
+	    transform: rotatez(-360deg);
+	  }
+	  100% {
+	    -ms-transform: rotatez(0deg);
+	    -webkit-transform: rotatez(0deg);
+	    transform: rotatez(0deg);
+	  }
+	}
+	@-webkit-keyframes rotate {
+	  0% {
+	    -ms-transform: rotatez(-360deg);
+	    -webkit-transform: rotatez(-360deg);
+	    transform: rotatez(-360deg);
+	  }
+	  100% {
+	    -ms-transform: rotatez(0deg);
+	    -webkit-transform: rotatez(0deg);
+	    transform: rotatez(0deg);
+	  }
+	}
+
 
 
 /* #Misc

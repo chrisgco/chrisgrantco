@@ -6,6 +6,7 @@
 
  Pace.on('done', function(){
    $('.loader').hide();
+   $(".wrapper").animate({ opacity: 1 }, 1000);
  })
 
 jQuery(document).ready(function($) {
