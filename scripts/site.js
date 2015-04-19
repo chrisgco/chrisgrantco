@@ -4,6 +4,10 @@
  * www.limitless.company
  */
 
+ Pace.on('done', function(){
+   $('.loader').hide();
+ })
+
 jQuery(document).ready(function($) {
    'use strict';
 
@@ -219,9 +223,6 @@ $(window).load(function() {
 
 	fixSizes();
 	loadMap();
-	$(".loader").delay(1000).fadeOut(1000, function() {
-		$(".wrapper").animate({ opacity: 1 }, 1000);
- 	});
 
 	//Animations
 	setTimeout(function(){$('.header').addClass('animated fadeInDown')},2300);
