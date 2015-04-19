@@ -4,7 +4,7 @@
   <ul>
     {.repeated section items}
       {.section collection}
-      <li {.section active}class="active"{.end}><a href="{fullUrl}">{navigationTitle}</a></li>
+      <li {.if active}class="active"{.end}><a href="{fullUrl}">{navigationTitle}</a></li>
       {.end}
 
       {.section externalLink}
