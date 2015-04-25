@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+	<!-- Metas
+  ================================================== -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- CSS
+  ================================================== -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.6/animate.min.css" rel='stylesheet' type='text/css'>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.4/jquery.fullPage.min.css" rel='stylesheet' type='text/css'>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" rel='stylesheet' type='text/css'>
+
+  <!-- Fonts
+  ================================================== -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:100,200,300,400,600,700' rel='stylesheet' type='text/css'>
+
+	<!-- Squarespace
+  ================================================== -->
+  {squarespace-headers}
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+</head>
+
+<body id="{squarespace.page-id}" class="{squarespace.page-classes}">
+
+	<header class="header">
+
+    <div class="container">
+
+      <div class="row">
+
+				{.section website}
+        <div class="col-sm-4">
+
+					<!-- logo -->
+			    <div data-content-field="site-title" class="logo" data-annotation-alignment="bottom">
+			      <a href="/">
+			        {.section logoImageUrl}
+			        <img src="{logoImageUrl}?format=400w" alt="{siteTitle} Logo">
+			        {.or}
+			        {siteTitle}
+			        {.end}
+			      </a>
+			    </div>
+			    {.end}
+			    <!-- logo -->
+
+					<!-- mobile menu -->
+          <div class="menu"></div>
+					<!-- mobile menu -->
+
+        </div>
+				{.end}
+
+        <div class="col-sm-8" data-content-field="navigation" data-annotation-alignment="bottom">
+
+					<!-- navigation -->
+			    <squarespace:navigation navigationId="navigation" template="navigation">
+			    <!-- navigation -->
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </header>

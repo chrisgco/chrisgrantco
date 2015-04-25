@@ -1,0 +1,39 @@
+{.section item}
+<article class="article {@|item-classes}" id="article-{id}" data-item-id="{id}">
+  <header class="article-header">
+    <div class="section" style="background-{.if systemDataId}image: url({assetUrl}){.or}color: black{.end};">
+      <div class="container-responsive">
+        <h5 class="date">{addedOn|date %B %d, %Y}</h5>
+        <h1 class="title">{title}</h1>
+        <ul class="article-categories">
+          {.repeated section categories}
+          <li><a href="{collection.fullUrl}?category={@|url-encode}">{@}</a></li>
+          {.end}
+        </ul>
+
+        <h6 class="scroll">
+          Scroll To Read
+        </h6>
+
+      </div>
+    </div>
+  </header>
+
+  <div class="offset">
+    <div class="container">
+      <div class="row article-content">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          {.section body}
+  					{@}
+  				{.end}
+
+          {.comments?}{@|comments}{.end}
+
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+  </div>
+</article>
+{.end}

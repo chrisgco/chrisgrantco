@@ -1,0 +1,14 @@
+{.section collection}
+<div class="row">
+
+  <ul class="categories">
+
+    <li {.if categoryFilter}{.or}class="active" {.end}><a href="{fullUrl}">All</a></li>
+    {.repeated section categories}
+    <li {.equal? categoryFilter @}class="active" {.end}><a href="{fullUrl}?category={@}">{@}</a></li>
+    {.end}
+
+  </ul>
+
+</div>
+{.end}

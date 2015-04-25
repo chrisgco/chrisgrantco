@@ -1,0 +1,28 @@
+<div class="container-responsive">
+
+  <div class="slider">
+
+    <div class="slides">
+
+      {.repeated section items}
+      <div class="slide {@|item-classes}" style="background-image: url({assetUrl}?format=1500w);" data-item-id="{id}">
+        <div class="container-responsive">
+          <h1 class="title" data-content-field="title" data-edit-main-image="Background">{title}
+          </h1>
+          <h2 class="subtitle">
+            {customContent.subtitle}
+          </h2>
+
+          <h6 class="action">
+            <a href="{customContent.ctaLink}">
+              {customContent.ctaText}
+            </a>
+          </h6>
+
+        </div>
+      </div>
+      {.end}
+
+    </div>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+<nav class="navigation">
+
+  <ul>
+    {.repeated section items}
+      {.section collection}
+      <li {.if active}class="active"{.end}><a href="{fullUrl}">{navigationTitle}</a></li>
+      {.end}
+
+      {.section externalLink}
+      <li><a href="{url}" {.section newWindow} targetc="_blank"{.end}>{title}</a></li>
+      {.end}
+    {.end}
+  </ul>
+
+</nav>

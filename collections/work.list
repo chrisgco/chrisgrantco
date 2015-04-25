@@ -1,0 +1,109 @@
+{.section collection}
+<div class="cover" style="background-image: url({mainImage.assetUrl});">
+
+  <div class="overlay">
+
+    <h3 class="title" data-content-field="title" data-edit-main-image="Background" data-annotation-alignment="bottom">{title}</h3>
+
+  </div>
+
+</div>
+{.end}
+<div class="offset">
+
+  <!-- container -->
+  <div class="container">
+
+    <!-- categories -->
+    {@|apply categories.block}
+    <!-- categories -->
+
+    <!-- work -->
+    <div class="row">
+
+      {.repeated section items}
+      <div class="col-md-4 col-sm-6 col-xs-12 work {@|item-classes}" data-url="{.passthrough?}{sourceUrl}{.or}{fullUrl}{.end}"
+      data-item-id="{id}" id="work-{id}">
+
+        {.main-image?}
+        <div class="thumbnail">
+
+          <img {@|image-meta} />
+
+        </div>
+        {.end}
+
+        <div class="info">
+
+          <h6 class="title">{title}</h6>
+          <ul class="work-categories">
+            {.repeated section categories}
+            <li><a href="{collection.fullUrl}?category={@|url-encode}">{@}</a></li>
+            {.end}
+          </ul>
+
+        </div>
+
+      </div>
+      {.end}
+
+    </div>
+    <!-- work -->
+
+    <!--pagination-->
+    {@|apply pagination.block}
+    <!--pagination-->
+
+  </div>
+
+</div>
+
+<footer class="footer">
+
+  <div class="contact">
+
+    <div class="container">
+      <div class="row">
+
+        <h6 class="title">Want to Work with Me?</h6>
+
+        <a class="link" href="/contact">Contact</a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  {.section website}
+  <div class="offset">
+
+    <!-- container -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h6 class="copyright">© 2015 {siteTitle}</h6>
+        </div>
+
+        <div class="social col-md-6" data-content-field="connected-accounts">
+
+          <ul>
+            {.repeated section socialAccounts}
+            <li>
+              <a {.if profileUrl} href="{profileUrl}" {.end}>
+                <i class="fa fa-{serviceName}"></i>
+              </a>
+            </li>
+            {.end}
+          </ul>
+
+        </div>
+      </div>
+
+    </div>
+    <!-- container -->
+
+  </div>
+  {.end}
+
+</footer>

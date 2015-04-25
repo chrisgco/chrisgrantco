@@ -1,0 +1,83 @@
+{.section item}
+<div class="cover" style="background-color: black;">
+
+  <div class="overlay">
+
+    <h3 class="title" data-content-field="title" data-edit-main-image="Background" data-annotation-alignment="bottom">{title}</h3>
+
+    <ul class="project-categories">
+      {.repeated section categories}
+      <li><a href="{collection.fullUrl}?category={@|url-encode}">{@}</a></li>
+      {.end}
+    </ul>
+
+  </div>
+
+</div>
+
+<div class="offset">
+
+  <!-- container -->
+  <div class="container">
+
+    <!-- work -->
+    <div class="row {@|item-classes}" data-item-id="{id}" id="work-{id}">
+
+
+    </div>
+    <!-- work -->
+
+  </div>
+
+</div>
+{.end}
+
+<footer class="footer">
+
+  <div class="contact">
+
+    <div class="container">
+      <div class="row">
+
+        <h6 class="title">Want to Work with Me?</h6>
+
+        <a class="link" href="/contact">Contact</a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  {.section website}
+  <div class="offset">
+
+    <!-- container -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h6 class="copyright">© 2015 {siteTitle}</h6>
+        </div>
+
+        <div class="social col-md-6" data-content-field="connected-accounts">
+
+          <ul>
+            {.repeated section socialAccounts}
+            <li>
+              <a {.if profileUrl} href="{profileUrl}" {.end}>
+                <i class="fa fa-{serviceName}"></i>
+              </a>
+            </li>
+            {.end}
+          </ul>
+
+        </div>
+      </div>
+
+    </div>
+    <!-- container -->
+
+  </div>
+  {.end}
+
+</footer>

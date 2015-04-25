@@ -1,0 +1,22 @@
+<div class="slider">
+
+  <div class="slides">
+
+    <div class="slide" style="background-image: url(/assets/img/404.jpg);">
+      <div class="container-responsive">
+        <h1 class="title">
+          404
+        </h1>
+        <h2 class="subtitle">
+          Page Not Found
+        </h2>
+
+        <h6 class="action">
+          <a href="/">Home</a>
+        </h6>
+
+      </div>
+    </div>
+  </div>
+
+</div>
